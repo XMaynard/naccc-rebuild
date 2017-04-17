@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
@@ -9,19 +10,30 @@ NAFTA crude oil trade preference, NAFTA crude oil trade compliance, NAFTA docume
 NAFTA crude oil documentation, NAFTA condensate documentation, NAFTA certificate, crude oil statement of origin, free trade">
 <meta name="discription" content="We provide statements of origin for crude oil produced in Alberta, Canada. The statements
 of origin allow crude oil importers to claim trade preference under th North American Free Trade Agreement (NAFTA).">
-<head>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="temp/styles/styles.css">
+
 </head>
     <body>
-      <div id="container">
+      <div>
 
         <header>
-          <h1>North American Crude Compliance Corp.</h1>
+          <a href="#" class="btn">Find out more</a>
         </header> <!--end of header-->
-        <div>
+        <div class="large-hero">
           <picture>
-            <img src="assets/images/openBook-small.jpg">
+            <source srcset="assets/images/openBook-large.jpg" media=("min-width: 1200px")>
+            <source srcset="assets/images/openBook-medium.jpg" media="(min-width:760px)">
+            <img src="assets/images/openBook-small.jpg" alt="open book with pages." class="large-hero__image">
           </picture>
+          <div class="large-hero__text-content">
+            <div class="wrapper">
+                <h1 class="large-hero__title">North American Crude Compliance Corp.</h1>
+              <h2 class="large-hero__subtitle">The Infrastructure Approach</h2>
+                <p class="large-hero__solution">The solution to the NAFTA documentation issue for crude oil!</p>
+                <a href="#" class="btn btn--orange btn--large">Find Out More</a>
+           </div>
+          </div>
+
         </div>
         <nav id="main-menu">
           <ul>
@@ -143,6 +155,7 @@ of origin allow crude oil importers to claim trade preference under th North Ame
       <footer>
       <div id="copyRight">Copyright 2016: North American Crude Compliance Corp.<br>
           235, 16 Midlake Boulevard S.E. Calgary, AB Canada T2X-2X7</div>
+            <a href="#" class="btn btn--orange">Find out More</a>
       </footer>
 
     </body>
