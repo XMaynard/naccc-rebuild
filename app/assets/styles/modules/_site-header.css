@@ -1,0 +1,45 @@
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba($mainBlue, .3);
+
+  &__btn-container {
+    float: right;
+  }
+
+  &__availDoc {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateX(-10%) scale(.8);
+    transition: transform .3s ease-out;
+    transform-origin: 50% 0;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: $mainBlue;
+    padding: 0 20px;
+    color: #FFF;
+
+    &-list {
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-weight: 200;
+        text-decoration: none;
+        display: inline-block;
+      }
+    }
+
+  }
+
+
+}

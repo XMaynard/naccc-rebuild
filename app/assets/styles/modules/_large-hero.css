@@ -1,5 +1,5 @@
 .large-hero {
-  border-bottom: 10px solid $mainBlue;
+  border-bottom: 10px solid rgba($mainBlue, 1);
   position: relative;
 
   &__image {
@@ -42,7 +42,7 @@
   &__solution {
     color:#FFF;
     font-size: 1.1rem;
-    font-weight: 150;
+    font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     max-width: 30rem;
     margin-left: auto;
