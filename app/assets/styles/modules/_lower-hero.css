@@ -1,0 +1,37 @@
+.lower-hero {
+  border-bottom: 10px solid rgba($mainBlue, 1);
+  position: relative;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
+
+&__image {
+  display: block;
+}
+
+&__text-content {
+  display: block;
+  left:0;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.5rem;
+
+  @mixin atMedium {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFF;
+  }
+
+}
+
+&__headline{
+  color: $mainBlue;
+  font-weight: 300;
+  font-size: 2.1rem;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+}

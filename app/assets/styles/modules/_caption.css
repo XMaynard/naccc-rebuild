@@ -1,0 +1,37 @@
+.caption {
+color: $mainBlue;
+position: relative;
+text-align: center;
+
+&__picture-stack-books {
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  font-weight: 300;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  font-size: 3rem;
+
+@mixin atSmall{
+    font-size: 3rem;
+
+}
+
+@mixin atMedium{
+    font-size: 3rem;
+
+
+}
+@mixin atLarge{
+    font-size: 3.5rem;
+
+
+}
+}
+
+  &__image {
+    display: inline-block;
+
+  }
+}

@@ -1,6 +1,7 @@
 .row {
 @mixin clearfix;
 
+
 &--gutters {
   margin-right: -65px;
 }
@@ -35,7 +36,7 @@
   &__medium-8--smaller {
     width: 63%;
   }
-
 }
+
 
 }
