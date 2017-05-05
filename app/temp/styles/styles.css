@@ -931,7 +931,7 @@ padding-top: 10px;
 @media (min-width: 800px) {
 
   .page-section--objectives {
-    background: url('/assets/images/oilpump-medium.jpg') top center no-repeat;
+    background: url('/assets/images/oilpump-red-medium.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -1151,7 +1151,7 @@ text-align: center;
 }
 
 .lower-hero__headline{
-  color: #4682b4;
+  color: #FFF;
   font-weight: 300;
   font-size: 3rem;
   text-align: center;
