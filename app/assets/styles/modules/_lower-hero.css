@@ -37,8 +37,9 @@ strong{
   font-weight: 400;
 }
 
-&__icon{
-  margin-right: .5rem;
+&__icon {
+    display:inline-block;
+    margin-right: .5rem;
 }
 
 
