@@ -16,7 +16,7 @@ gulp.task('previewDist', function(){
   });
 });
 
-gulp.task('deleteDistFolder', function(){
+gulp.task('deleteDistFolder',['icons'], function(){
   return del("./docs");
 })
 
