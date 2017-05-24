@@ -44,7 +44,7 @@ padding-top: 10px;
     text-decoration: none;
     display: block;
     padding: 5px 8px;
-    font-size: .8rem;
+    font-size: .9rem;
     background-color: rgba($mainBlue, .9);
 
     @mixin atMedium {
